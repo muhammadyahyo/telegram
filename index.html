@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Telegram</title>
+</head>
+<body >
+    
+    <div class="telegram-body">
+        <div class="top-elements">
+            <a href="#">
+                <i class="far fa-window-minimize"></i>
+            </a>
+
+            <a href="#">
+                <i class="far fa-window-maximize"></i>
+            </a>
+            
+            <a href="#">
+                <i class="fas fa-times"></i> 
+            </a>
+            
+        </div>
+
+
+
+
+        <div class="bottom-elements">
+
+            <div class="left-contect">
+
+                <form class="search-form">
+                    <button class="menu-button" type="button">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <input class="search" type="search" placeholder="Поиск">
+                </form>
+
+
+                <div class="container-accounts">
+                    <ul class="accounts-list">
+                        <!-- <li class="account-item">
+                           <img class="img-avatar" src="./img/1.jpg" alt="avatar">
+                           <div class="account-info">
+                               <h1 class="account-name">Jack</h1>
+                               <p class="account-sms">Hello</p>
+                           </div>
+                           <p class="avatar-time"> 12:51</p>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="right-contect">
+                <div class="account-contect">
+                    <div class="account-contect-info">
+                        <h1 class="account-contect-info-h1">
+                            Ali
+                        </h1>
+                        <p class="account-contect-info-p">
+                            был(а) в сети только что
+                        </p>
+                    </div>
+                    <div class="account-contect-icons">
+                        <button class="account-contect-icons-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="account-contect-icons-button">
+                            <i class="fas fa-phone-alt"></i>
+                        </button>
+                        <button class="account-contect-icons-button">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="chat-box">
+                    <ul class="messages">
+                        <li class="you">hello</li>
+                        <li class="me">How are you?</li>
+                    </ul>
+                </div>
+
+                <form class="chat-form">
+                    
+                        <button>
+                            <i class="fas fa-paperclip paperclip-icon"></i>
+                        </button>
+                        <textarea class="chat-textarea" placeholder="Наберите ваше сообщение..."></textarea>
+                        <div>
+                        <i class="smile far fa-smile"></i>
+                        <i class="smile fas fa-microphone"></i>
+                        <button class="send">
+                            <i class="fad fa-paper-plane"></i>
+                        </button>
+                        </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="top-modal">
+            <h2>User Info</h2>
+            <ul class="top-modal-icon">
+                <li class="top-modal-icon-list">
+                    <i class="fas fa-phone"></i>
+                </li>
+                <li class="top-modal-icon-list">
+                    <i class="fas fa-ellipsis-v"></i>
+                </li>
+                <li class="top-modal-icon-list">
+                    <i class="close-button fas fa-times"></i>
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="center-modal">
+            <img class="photo-user" src="./img/1.jpg" alt="avatar">
+            <div>
+            <h2 class="user-name">Ali</h2>
+            <p> был(а) в сети только что</p>
+            </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="footer-modal">
+            <ul class="footer-modal-item">
+                <li class="footer-modal-list">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <div>
+                        <p class="tel-account-modal">99985569885</p>
+                        <p>Mobile</p>
+                    </div>
+                </li>
+
+                <li class="footer-modal-list">
+                    <div class="username">
+                        <p class="tel-account-modal userlink"> <span>@</span> Ali</p>
+                        <p>Username</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sms-yozish">
+            <i class="fas fa-bell"></i>
+            <p>Показывать уводемление</p>
+            <i class="toogle-icon fas fa-toggle-on"></i>
+        </div>
+
+        <p class="modal-p-text">НАПИСАТЬ СООБЩЕНИЕ</p>
+
+    </div>
+
+    <div class="modal-opacity">
+
+    </div>
+
+    <div class="modal-myaccount animate__slideInLeft">
+        <div class="modal-myaccount-top">
+            <span><p>L</p></span>
+            <div>
+                <h3>Latifov</h3>
+                <p>+99890 175 88 24</p>
+            </div>
+        </div>
+
+        <ul class="settings-list">
+            <li class="settings-item">
+                <i class="fas fa-user-friends" aria-hidden="true"></i>
+                <p>New Group</p>
+            </li>
+            <li class="settings-item">
+                <i class="fas fa-bullhorn" aria-hidden="true"></i>
+                <p>New Channel</p>
+            </li>
+            <li class="settings-item">
+                <i class="fas fa-user" aria-hidden="true"></i>
+                <p>Contacts</p>
+            </li>
+            <li class="settings-item">
+                <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                <p>Calls</p>
+            </li>
+            <li class="settings-item">
+                <i class="fas fa-cog" aria-hidden="true"></i>
+                <p>Settinga</p>
+            </li>
+            <li class="settings-item">
+                <i class="far fa-moon" aria-hidden="true"></i>
+                <p>Night mode</p>
+                <i class="fas fa-toggle-off off" aria-hidden="true"></i>
+            </li>
+            
+        </ul>
+
+
+    </div>
+    <div class="modal-opacity-myaccount">
+
+    </div>
+
+
+
+    <script src="./data.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
